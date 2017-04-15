@@ -26,12 +26,12 @@ Add this to your `.pre-commit-config.yaml`:
             additional_dependencies: ['tslint-eslint-rules@1.5.0']
 ```
 
-   To check type or if linter complaints of type 
+   To check type or if linter complaints of type but this will slow down your commit
    
 ``` 
      hooks:
         -   id: tslint
-            args: ['--program path/to/tsconfig.json','--type-check']
+            args: ['--project','tsconfig.json','--type-check']
 ```
 
         
