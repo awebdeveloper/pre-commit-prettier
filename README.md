@@ -18,12 +18,7 @@ Add this to your `.pre-commit-config.yaml`:
         -   id: tslint
         
         
-   To use with ```tslint-eslint-rules```
-   
-``` 
-     hooks:
-        -   id: tslint
-            additional_dependencies: ['tslint-eslint-rules@1.5.0']
+   To use with ```tslint-eslint-rules``` include it as additional_dependencies
 ```
 
    To check type or if linter complaints of type but this will slow down your commit
