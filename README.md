@@ -16,12 +16,12 @@ Add this to your `.pre-commit-config.yaml`:
         sha: ''  # Use the sha or tag you want to point at
         hooks:
         -   id: tslint
+            additional_dependencies: ['tslint@5.0.0']
         
         
    To use with ```tslint-eslint-rules``` include it as additional_dependencies
 
    To check type or if linter complaints of type (but this will slow down your commit)
-   
 ``` 
      hooks:
         -   id: tslint
