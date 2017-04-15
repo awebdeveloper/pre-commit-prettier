@@ -20,9 +20,9 @@ Add this to your `.pre-commit-config.yaml`:
         
    To use with ```tslint-eslint-rules```
    
-    ``` 
+``` 
      hooks:
         -   id: tslint
             additional_dependencies: ['tslint-eslint-rules@1.5.0']
-    ```
+```
    
