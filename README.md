@@ -19,7 +19,6 @@ Add this to your `.pre-commit-config.yaml`:
         
         
    To use with ```tslint-eslint-rules``` include it as additional_dependencies
-```
 
    To check type or if linter complaints of type but this will slow down your commit
    
