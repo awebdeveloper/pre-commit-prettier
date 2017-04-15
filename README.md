@@ -25,4 +25,14 @@ Add this to your `.pre-commit-config.yaml`:
         -   id: tslint
             additional_dependencies: ['tslint-eslint-rules@1.5.0']
 ```
+
+   To check type or if linter complaints of type 
+   
+``` 
+     hooks:
+        -   id: tslint
+            args: ['--program path/to/tsconfig.json','--type-check']
+```
+
+        
    
