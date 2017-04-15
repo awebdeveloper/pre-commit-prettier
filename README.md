@@ -1,7 +1,7 @@
 Tslint for pre-commit
 ========================
 
-Mirror of Tslint package for pre-commit.
+Tslint package for pre-commit>=0.12.0.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
@@ -16,3 +16,13 @@ Add this to your `.pre-commit-config.yaml`:
         sha: ''  # Use the sha or tag you want to point at
         hooks:
         -   id: tslint
+        
+        
+   To use with ```tslint-eslint-rules```
+   
+    ``` 
+     hooks:
+        -   id: tslint
+            additional_dependencies: ['tslint-eslint-rules@1.5.0']
+    ```
+   
