@@ -16,7 +16,6 @@ Add this to your `.pre-commit-config.yaml`:
         sha: ''  # Use the sha or tag you want to point at
         hooks:
         -   id: prettier
-            args: ['--write']
             additional_dependencies: ['prettier@1.1.0']
 
         
