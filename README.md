@@ -12,7 +12,7 @@ For Tslint: see https://github.com/prettier/prettier
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git://github.com/awebdeveloper/pre-commit-prettier/
+    -   repo: https://github.com/awebdeveloper/pre-commit-prettier
         sha: ''  # Use the sha or tag you want to point at
         hooks:
         -   id: prettier
