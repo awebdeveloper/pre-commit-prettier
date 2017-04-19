@@ -1,8 +1,8 @@
--   id: tslint
-    name: tslint
-    entry: tslint
+-   id: prettier
+    name: prettier
+    entry: prettier
     language: node
-    files: \.(ts)$
+    files: \.(js)$
     args: []
 
     # Use additional_dependencies to install the actual node package
