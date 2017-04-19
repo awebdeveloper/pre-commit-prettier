@@ -15,7 +15,7 @@ Add this to your `.pre-commit-config.yaml`:
     -   repo: git://github.com/awebdeveloper/pre-commit-prettier/
         sha: ''  # Use the sha or tag you want to point at
         hooks:
-        -   id: tslint
+        -   id: prettier
             args: ['--write']
             additional_dependencies: ['prettier@1.1.0']
 
