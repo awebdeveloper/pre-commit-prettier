@@ -3,7 +3,7 @@
     entry: prettier
     language: node
     files: \.(js)$
-    args: []
+    args: ['--write']
 
     # Use additional_dependencies to install the actual node package
     minimum_pre_commit_version: 0.12.0
