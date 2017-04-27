@@ -1,7 +1,7 @@
 Prettier for pre-commit
 ========================
 
-Tslint package for pre-commit>=0.12.0.
+Prettier package for pre-commit>=0.12.0.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
