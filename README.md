@@ -11,6 +11,7 @@ For Prettier: see https://github.com/prettier/prettier
 ### Using Prettier with pre-commit
 
 Add this to your `.pre-commit-config.yaml`:
+```yaml
 
     -   repo: https://github.com/awebdeveloper/pre-commit-prettier
         sha: ''  # Use the sha or tag you want to point at
@@ -18,5 +19,5 @@ Add this to your `.pre-commit-config.yaml`:
         -   id: prettier
             additional_dependencies: ['prettier@1.1.0']
 
-        
+  ```
    
