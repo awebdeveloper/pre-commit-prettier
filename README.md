@@ -18,6 +18,11 @@ Add this to your `.pre-commit-config.yaml`:
         hooks:
         -   id: prettier
             additional_dependencies: ['prettier@1.1.0']
+ ```          
+  ### FAQ's
+  
+  1. Why does pre-commit say failed everytime prettier changes the file.
+  A. This is how pre-commit works. You need to just add the files again and commit. This is done so that you can verify the changes.  
 
-  ```
+
    
