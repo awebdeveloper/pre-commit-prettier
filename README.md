@@ -24,7 +24,13 @@ Add this to your `.pre-commit-config.yaml`:
   
   **1.** Why does pre-commit say failed everytime prettier changes the file.
   
-  **A.** This is how pre-commit works. You need to just add the files again and commit. This is done so that you can verify the changes.  
+  **A.** This is how pre-commit works. You need to just add the files again and commit. This is done so that you can verify the changes. 
+   
+   
+  **2.** Prettier has lot more args that you dont support.
+  
+  **A.** Just add them as args in the above snippet. See comment in the snippet above for example. 
+  
 
 
    
