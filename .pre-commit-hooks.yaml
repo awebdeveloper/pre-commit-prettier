@@ -2,7 +2,7 @@
     name: prettier
     entry: prettier
     language: node
-    files: \.(js)$
+    files: \.(js|ts|tsx)$
     args: ['--write']
 
 
