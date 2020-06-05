@@ -1,8 +1,8 @@
--   id: prettier
-    name: prettier
-    entry: prettier --write
-    language: node
-    files: "\\.(\
+- id: prettier
+  name: prettier
+  entry: prettier --write
+  language: node
+  files: "\\.(\
     css|less|scss\
     |graphql|gql\
     |html\
@@ -14,7 +14,3 @@
     |vue\
     |yaml|yml\
     )$"
-
-
-    # Use additional_dependencies to install the actual node package
-    minimum_pre_commit_version: 0.12.0
