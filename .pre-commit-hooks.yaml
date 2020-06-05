@@ -1,9 +1,19 @@
 -   id: prettier
     name: prettier
-    entry: prettier
+    entry: prettier --write
     language: node
-    files: \.(js|ts|tsx)$
-    args: ['--write']
+    files: "\\.(\
+    css|less|scss\
+    |graphql|gql\
+    |html\
+    |js|jsx\
+    |json\
+    |md|markdown|mdown|mkdn\
+    |mdx\
+    |ts|tsx\
+    |vue\
+    |yaml|yml\
+    )$"
 
 
     # Use additional_dependencies to install the actual node package
