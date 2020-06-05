@@ -13,12 +13,12 @@ For Prettier: see https://github.com/prettier/prettier
 Add this to your `.pre-commit-config.yaml`:
 ```yaml
 
-    -   repo: https://github.com/awebdeveloper/pre-commit-prettier
-        rev: ''  # Use the sha or tag you want to point at
-        hooks:
-        -   id: prettier
-            args: [] #list of args like '--single-quote', '--jsx-bracket-same-line', '--print-width 120', '--no-bracket-spacing'
-            additional_dependencies: ['prettier@1.1.0']
+-   repo: https://github.com/awebdeveloper/pre-commit-prettier
+    rev: ''  # Use the sha or tag you want to point at
+    hooks:
+    -   id: prettier
+        args: [] #list of args like '--single-quote', '--jsx-bracket-same-line', '--print-width 120', '--no-bracket-spacing'
+        additional_dependencies: ['prettier@1.1.0']
  ```
 
 PS: These are for version 2.3.0 visit https://pre-commit.com/#2-add-a-pre-commit-configuration for latest config syntax or for config syntax specific to your version
